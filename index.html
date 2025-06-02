@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV_Khramov_Sviatoslav</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Khramov Sviatoslav</h1>
+
+  <section>
+    <p>(068) 808-6728</p>
+    <p>sviatoslav.khramov.kb.2022@lpnu.ua</p>
+    <p>Lviv, Ukraine</p>
+  </section>
+
+  <section>
+    <h2>Objective</h2>
+    <p>
+      To obtain position as a Trainee Java Developer, gain professional experience
+      <br>and provide my help to the team
+    </p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p>
+      Lviv Polytechnic National University
+      <br>Cybersecurity
+      <br>September 2022 - June 2026
+    </p>
+  </section>
+
+  <section>
+    <h2>Courses</h2>
+    <ol>
+      <li>Java Comprehensive Course</li>
+      <li>Git & Github Bootcamp</li>
+      <li>Spring & Spring Boot Course</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        Developed a Sorting Algorithm Library in Java, implementing multiple sorting techniques
+        <br>with an Array class for managing numeric values dynamically.
+      </li>
+      <li>
+        Built a Java ATM System with MD5 hashing, serialization and Open-Closed Principle.
+      </li>
+      <li>
+        Created an Android App using the Harry Potter API, REST, JSON, and UI.
+      </li>
+    </ul>
+    <p>Technologies Used: Java, OOP, Collections, REST APIs, Android Development, Git</p>
+  </section>
+
+  <!-- Футер -->
+  <footer id="footer-info"></footer>
+
+  <!-- Модальне вікно -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal" class="close-button">&times;</span>
+      <h2>Зворотній зв'язок</h2>
+      <form action="https://formspree.io/f/xpwrzany" method="POST">
+        <label>Ім’я:<input type="text" name="name" required /></label><br />
+        <label>Email:<input type="email" name="email" required /></label><br />
+        <label>Телефон:<input type="tel" name="phone" required /></label><br />
+        <label>Повідомлення:<textarea name="message" required></textarea></label><br />
+        <button type="submit">Відправити</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Кнопка перемикання теми -->
+  <button id="theme-toggle">Перемкнути тему</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
